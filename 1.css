@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Rubik:wght@700&display=swap');
+
+
+body {
+    min-height: 100vh;
+    background-color: #18181B;
+}
+
+.header {
+    position: fixed;
+    user-select: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 120px 19px;
+    background: rgba(24, 24, 27, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    word-spacing: 17px;
+    border: 1px solid rgba(38, 38, 38, 0.4);
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    height: 47px;
+    width: 56px;
+}
+
+.navbar a {
+    font-size: 24px;
+    color: #E4E4E4;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.login{
+    font-size: 24px;
+    color: #E4E4E4;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    margin-right: 230px;
+}
+
+.navbar a:hover{
+    background: #212124;
+    width: 15%;
+    transition: .5s;
+}
+
+.navbar a.active {
+    color: #73C398;
+    text-shadow: 0px 0px 2px #73C398;
+}
+
+
+
+
+
+
+
+
+
+/* BACKGROUND */
+  
+  .background {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 220px;
+  }
+  
+  
+  /* .background-logo {
+    position: absolute;
+    margin-left: 850px;
+    height: 10px;
+    background-color: red;
+  } */
+  
+  .blogo {
+    position: absolute;
+    margin-left: 1191px;
+    margin-top: 303px;
+    height: 834px;
+  }
+  
+    
+  .main-text {
+    position: absolute;
+    font-size: 200px;
+    color: white;
+    margin-left: 285px;
+    margin-top: 505px;
+    user-select: none;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .main-text-1 {
+    color: #81D8A9;
+  }
+  
+  .main-text-2 {
+    margin-left: 128px;
+  }
